@@ -37,9 +37,9 @@ class _HomePageColumnRowState extends State<HomePageColumnRow> {
             final name = names[index];
             return Container(
               width: double.infinity,
-              height: 80,
+              height: 60,
               margin: const EdgeInsets.all(8),
-              color: Colors.green,
+              color: Colors.grey,
               child: ListTile(
                 title: Text(name),
               ),
